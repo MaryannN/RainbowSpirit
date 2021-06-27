@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		body {
+			background-image: url(https://i.pinimg.com/originals/a6/4c/66/a64c662c42e1df402e4d706666b398ab.gif);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+		}
+	</style>
+
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+	<div class="topnav">
+		<a href="/">Home</a>
+		<a href="/relax.html">Relaxtion Room</a>
+		<a class="active" href="/color.html">Color Psychology</a>
+		<a href="/helplines.html">Helplines</a>
+		<a href="/gallery.html">Gallery</a>
+	</div>
+	<h2><strong><span style="background-color: white"><span style="padding-right:60px"><span style="padding-left:60px">Color Psychology</span></span></span></strong></h2>
+  <div id="introduction">
+      <div class='container'>
+  <hr class="line1">
+        <div: class="introduction"></div>
+
+        
+	<p>Color psychology is based on the idea that the colors we are exposed to can have an effect on our emotions and overall
+		well being. Color therapy can be used as a means of healing. Exploring this may be helpful treatment for mental health
+		and mood issues.</p>
+	<p>Red inspires passion, power, and energy</p>
+	<p id="red">Red promotes energy, strength, motivation, confidence, will-power, courage, initiative, and attention to detail.<br><br>Good for depression, negativity, and shyness.<br><br>Avoid in anger and irritability.
+    </p>
+    <p>Orange is used to heal the lungs and to increase energy levels.</p>
+    <p id="orange">Orange promotes a stimulated body and mind, self esteem, optimism, inner strength, creativity, self-expression, happiness, opens mind to new ideas and perspectives, and revitalisation.<br><br>Good for depression, negativity, trauma, stress, bereavement and loss.
+    </p>
+    <p>Yellow is thought to stimulate the nerves and purify the body.</p>
+    <p id="yellow">Yellow promotes uplifting, cleansing, self-respect, self-confidence, self-control, ability to rationalise and reason, contentment, and mental stimulation.<br><br>Good for depression, despair, fatigue, negativity, sensitivity to criticism, and lack of confidence.<br><br>Avoid in insomnia and hyperactivity.
+    </p>
+    <p>Blue and Green create a calming atmosphere:</p>
+    <p id="green">Green promotes balance, harmony, personal development, self-acceptance, compassion for self and others, and renewal.<br><br>Good for stress, anxiety, self-pity, and confusion.
+    </p>
+    <p>Blue</p>
+    <p id="blue">Blue promotes calm, peace, relaxation, slowing down, steadying, self-expression, intuition, honesty, truth, and creativity.<br><br>Good for insomnia, stress, anxiety, overexcitement, and anger.
+    </p>
+    <p>Purple enhances creativity and spirituality.</p>
+    <p id="purple">Purple promotes inspiration, imagination, empathy, sense of belonging, helping others, self-respect, and dignity<br><br>Good for stress, anxiety, obsessions, lack of confidence, low self-esteem, and depression.
+    </p>
+    <script src="script.js"></script>
+  </body>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 10;
+  font-size: 28px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.header h2 {
+  text-align: center;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: black;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #d0b8ac;
+  width: 0%;
+}
+
+.content {
+  padding: 100px 0;
+  margin: 50px auto 0 auto;
+  width: 80%;
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
+</body>
+</html>
