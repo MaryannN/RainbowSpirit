@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  font-family: Verdana;
+  text-align: center;
+  background-color: #000000;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #eeddd3;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #e2cfc4;
+  color: white;
+}
+
+h1{
+  margin-top: -10 px;
+  padding-top: 25%;
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -.015em;
+  background-image: linear-gradient(to right,#ffa1d5,#ffff98, #b1f3ff);
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+h2{
+  padding-top: 25%;
+  color: #e8d1c5;
+  font-weight: 100;
+  font-size: 50px;
+  margin: 40px 0px 20px;
+  text-shadow: 5px 5px 10 px white;
+}
+
+h3{
+  padding-top: 10%;
+  color: #eddcd2;
+  text-align: inherit;
+}
+
+p{
+  color: #84adbd;
+  text-align: center;
+}
+
+#checklist{
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#checklist > div{
+  padding: 10px;
+  border-radius: 3px;
+  background: #d8e2dc;
+  display: inline-block;
+}
+
+#checklist div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #e8e8e4;
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.container{
+  height: 100vh
+  width:100%
+  background-image: url()
+}
+
+div.container
+{
+  height:300px;
+  width:1000px;
+  margin:10px auto;
+  padding-top:100px;
+}
+
+line1{
+ 	border-top: 2px solid #999; 
+  width: 90%;
+  height: 20 px;
+}
+
+#boxes {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#column2 {
+  width: 43%;
+  align-content: right;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f2eae4;
+  padding: 20px;
+}
+
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+#red 
+{
+  text-align: center;
+  display: block;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black; 
+  margin: 0 auto;
+  display: inline;
+}
+
+
+#red {
+  border-radius: 25px;
+  border: 5px solid #eb9994;
+  background-image: url(https://image.freepik.com/free-vector/watercolor-pastel-background_72287-817.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  background-position-x: 50%;
+  text-align: center;
+    display: inline-block;
+  padding: 20px; 
+  width: 500px;
+  height: 500px;  
+  color: white;
+  
+}
+
+#orange {
+  border-radius: 25px;
+  border: 5px solid #f0b288;
+  background-image: url(https://i2.wp.com/files.123freevectors.com/wp-content/original/2090-abstract-orange-watercolor-background.jpg?w=420);
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  background-position-x: 50%;
+  text-align: center;
+    display: inline-block;
+  padding: 20px; 
+  width: 500px;
+  height: 500px;
+  color: white;  
+}
+
+#yellow {
+  border-radius: 25px;
+  border: 5px solid #ebeb91;
+  background-image: url(https://image.freepik.com/free-vector/watercolor-background-design_1116-124.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  background-position-x: 50%;
+  text-align: center;
+  display: inline-block;
+  padding: 20px; 
+  width: 500px;
+  height: 550px;
+  color: white;   
+}
+
+#green {
+  border-radius: 25px;
+  border: 5px solid #bdd9c0;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-_IQa14p56n8YV4ggs6ageM6UstP70UlwiRVY1Udg3fEHVAkyc5Nz0vK3D5iGBPLopfSyE7FWhdM143Ud:https://static.vecteezy.com/system/resources/previews/000/538/832/original/abstract-green-watercolor-background-vector.jpg&usqp=CAU);
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  background-position-x: 50%;
+  text-align: center;
+  display: inline-block;
+  padding: 20px; 
+  width: 500px;
+  height: 500px; 
+  color: white; 
+}
+
+#blue {
+  border-radius: 25px;
+  border: 5px solid #bdced9;
+  background-image: url(https://image.freepik.com/free-vector/blue-watercolor-background_1110-1050.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  background-position-x: 50%;
+  text-align: center;
+  display: inline-block;
+  padding: 20px; 
+  width: 500px;
+  height: 500px;
+  color:white;  
+}
+
+#purple {
+  border-radius: 25px;
+  border:5px solid #cfbdd9;
+  background-image: url(https://t4.ftcdn.net/jpg/02/51/52/09/360_F_251520963_fvzbEKiX2zH9tduV2IJ3Zm1VXKmZG8bm.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  background-position-x: 50%;
+  text-align: center;
+  display: inline-block;
+  padding: 20px; 
+  width: 500px;
+  height: 500px;  
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img-container2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img-container3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#beige{
+  color: #d3c1c3;
+  text-align: left;
+  font-size: 20px;
+}
